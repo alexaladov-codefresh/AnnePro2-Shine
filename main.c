@@ -121,7 +121,7 @@ static volatile uint8_t currentSpeed = 0;
 static volatile uint16_t animationSkipTicks = 0;
 static uint32_t animationLastCallTime = 0;
 
-static const GPTConfig bftm0Config = {.frequency = 50000,
+static const GPTConfig bftm0Config = {.frequency = 5000,
                                       .callback = mainCallback};
 
 static mutex_t mtx;
