@@ -54,7 +54,7 @@ ioline_t ledRows[NUM_ROW * 4] = {
     LINE_LED_ROW_5_R, LINE_LED_ROW_5_G, LINE_LED_ROW_5_B, 0,
 };
 
-#define REFRESH_FREQUENCY 2000
+#define REFRESH_FREQUENCY 200
 
 #define KEY_COUNT 70
 
